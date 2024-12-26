@@ -22,7 +22,6 @@ Vue 3와 TypeScript를 사용한 영화 스트리밍 서비스 웹 애플리케�
 
 ## 환경 설정
 1. 필요한 환경 변수 파일 생성:
-plaintext
 .env.development
 VITE_KAKAO_CLIENT_ID=your_kakao_client_id
 VITE_TMDB_API_KEY=your_tmdb_api_key
@@ -30,16 +29,13 @@ VITE_MODE=development
 VITE_BASE_URL=http://localhost:****
 
 2. 의존성 설치:
-'''bash
 npm install
 
 ## 실행 방법
 ### 개발 환경
-bash
 npm run dev
 
 ### 프로덕션 환경
-bash
 npm run build
 npm run preview
 
