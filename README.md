@@ -43,27 +43,6 @@ bash
 npm run build
 npm run preview
 
-
-## 프로젝트 구조
-src/
-├── components/
-│ ├── main/
-│ │ ├── BannerComponent.vue
-│ │ └── MovieRow.vue
-│ └── popular/
-│ └── MovieTable.vue
-├── views/
-│ ├── home-main.vue
-│ └── home-popular.vue
-├── vue/
-│ ├── SignIn.vue
-│ └── header.vue
-├── script/
-│ └── movie/
-│ └── URL.ts
-└── router/
-└── index.ts
-
 ## API 키 관리
 - TMDB API 키와 카카오 API 키는 .env 파일에서 관리
 - .gitignore에 .env 파일 포함하여 보안 유지
