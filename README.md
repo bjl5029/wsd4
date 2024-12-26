@@ -36,8 +36,7 @@ npm install
 npm run dev
 
 ### 프로덕션 환경
-npm run build
-npm run preview
+npm run build                npm run preview
 
 ## API 키 관리
 - TMDB API 키와 카카오 API 키는 .env 파일에서 관리
