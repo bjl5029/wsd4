@@ -30,7 +30,7 @@ VITE_MODE=development
 VITE_BASE_URL=http://localhost:****
 
 2. 의존성 설치:
-bash
+'''bash
 npm install
 
 ## 실행 방법
